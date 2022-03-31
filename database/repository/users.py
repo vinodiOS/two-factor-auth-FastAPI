@@ -1,8 +1,5 @@
-import base64
-import email
-import os
 from core.hashing import Hasher
-from db.models.users import User
+from database.models.users import User
 from schemas.users import UserCreate
 from sqlalchemy.orm import Session
 

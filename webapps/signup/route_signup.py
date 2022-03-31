@@ -1,8 +1,8 @@
 import base64
 from io import BytesIO
 import os
-from db.repository.users import create_new_user
-from db.session import get_db
+from database.repository.users import create_new_user
+from database.session import get_db
 from fastapi import APIRouter
 from fastapi import Depends
 from fastapi import Request

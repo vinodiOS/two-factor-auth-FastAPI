@@ -1,5 +1,5 @@
 import databases
-from db.session import SQLALCHEMY_DATABASE_URL
+from database.session import SQLALCHEMY_DATABASE_URL
 
 
 async def check_db_connected():

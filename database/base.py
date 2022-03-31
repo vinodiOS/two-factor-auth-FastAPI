@@ -1,2 +1,2 @@
-from db.base_class import Base
-from db.models.users import User
+from database.base_class import Base
+from database.models.users import User

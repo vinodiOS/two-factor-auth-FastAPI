@@ -1,4 +1,3 @@
-import email
 from pydantic import BaseModel
 
 class UserCreate(BaseModel):
@@ -9,5 +8,5 @@ class UserCreate(BaseModel):
 class ShowUser(BaseModel):
     email: str
 
-    class Config:  # to convert non dict obj to json
+    class Config: 
         orm_mode = True
