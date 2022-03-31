@@ -1,0 +1,20 @@
+{% block content %}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='/css/qr_code_style.css') }}">
+</head>
+<body>
+  <div class="header"> 
+    <div class="container"> 
+      <div class="container-bg">
+      </div>
+      <div class="container-content">
+        <h1>Welcome,  {{email}}</h1> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+{% endblock %}

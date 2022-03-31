@@ -1,0 +1,44 @@
+{% block content %}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Two Factor Authentication with FastAPI</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="bg"></div>
+
+<div>
+  <form method="POST">
+    <div><h5 class="header">Signup now</h5></div>
+    
+    <div class="error_text">
+      {% for error in errors %}
+        <li>{{error}}</li>
+      {% endfor %}
+    </div>
+    
+    <div class="form-field">
+      <input type="email" placeholder="Email" value="{{email}}" name="email" required/>
+    </div>
+    
+    <div class="form-field">
+      <input type="password" placeholder="Password" value="{{password}}" name="password" required/>                         
+    </div>
+    
+    <div class="form-field">
+      <input type="password" placeholder="Confirm Password" value="{{cirfirm_password}}" name="confirm_password" required/>                         
+    </div>
+
+    <div class="form-field">
+      <button class="btn" type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
+{% endblock %}

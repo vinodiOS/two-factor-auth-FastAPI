@@ -1,0 +1,33 @@
+{% block content %}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>QR Code</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='/css/qr_code_style.css') }}">
+</head>
+<body>
+  <div class="header"> 
+    <div class="container"> 
+      <div class="container-bg">
+
+      </div>
+      <div class="container-content">
+        <h1>You are registered successfully</h1> 
+        <p>Please use Microsoft Authenticator or Google Authenticator for scanning code.</p>
+        <div>
+            {% block page_content %}
+            <img src="data:image/png;base64,{{ data }}">
+            {% endblock %}
+        </div>
+        <div>
+          <p>I'm all set, take me to the <a href="{{ url_for('login') }}">Login</a> page!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+{% endblock %}
+
+
+
