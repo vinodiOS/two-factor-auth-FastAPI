@@ -33,7 +33,7 @@ After entering appropriate details new user would be created and page will be na
 
 Use [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_IN&gl=US) or [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator&hl=en_IN&gl=US) or any other Authenticator app to scan QR code and generate TOTP.
 
-![totp_screenshot](https://user-images.githubusercontent.com/30258541/161046513-107d6ab6-d3f5-40b5-b184-f74a0526a952.PNG)
+![otp_screenshot](https://user-images.githubusercontent.com/30258541/161052537-ad536b1e-8c67-4fa8-88fe-31ab7ebb5b12.png)
 
 ## Login
 Follow this path to login 
