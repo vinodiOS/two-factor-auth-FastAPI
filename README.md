@@ -15,6 +15,8 @@ uvicorn main:app --reload
 
 ## Steps for setting up Two Factor Authentication
 
+Follow next steps for setting up user account and generate TOTP using Authenticator app.
+
 ## Signup
 Enter the following path to create new user.
 ```sh
@@ -30,6 +32,8 @@ After entering appropriate details new user would be created and page will be na
 ## Authenticator app setup
 
 Use [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_IN&gl=US) or [Microsoft Authenticator](https://play.google.com/store/apps/details?id=com.azure.authenticator&hl=en_IN&gl=US) or any other Authenticator app to scan QR code and generate TOTP.
+
+![totp_screenshot](https://user-images.githubusercontent.com/30258541/161046513-107d6ab6-d3f5-40b5-b184-f74a0526a952.PNG)
 
 ## Login
 Follow this path to login 
