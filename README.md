@@ -1,5 +1,7 @@
 # Two Factor Authentication using FastAPI
 
+This repository uses [FastAPI](https://fastapi.tiangolo.com) for creating webapp.
+
 ## Installtion
 
 ```sh
