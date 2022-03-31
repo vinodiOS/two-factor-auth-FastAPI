@@ -1,6 +1,6 @@
 # Two Factor Authentication using FastAPI
 
-This repository uses [FastAPI](https://fastapi.tiangolo.com) for creating webapp.
+This repository uses [FastAPI](https://fastapi.tiangolo.com) for creating webapp. This webapp uses [PyOTP](https://pypi.org/project/pyotp/) which is a Python library for generating and verifying one-time passwords.
 
 ## Installtion
 
