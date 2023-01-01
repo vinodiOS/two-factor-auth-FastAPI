@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  otp_example:
+    build:
+      context: .
+    ports:
+    - '8080:80'
