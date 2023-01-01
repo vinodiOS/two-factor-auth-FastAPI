@@ -2,7 +2,7 @@
 
 This repository uses [FastAPI](https://fastapi.tiangolo.com) for creating webapp and [PyOTP](https://pypi.org/project/pyotp/) Python library is used for generating and verifying one-time passwords.
 
-## Installtion
+## Installation
 
 ```sh
 git clone https://github.com/vinodiOS/two-factor-auth-FastAPI.git
