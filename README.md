@@ -2,8 +2,9 @@
 
 This repository uses [FastAPI](https://fastapi.tiangolo.com) for creating webapp and [PyOTP](https://pypi.org/project/pyotp/) Python library is used for generating and verifying one-time passwords.
 
-## Installtion
+## Installation
 
+### Local
 ```sh
 git clone https://github.com/vinodiOS/two-factor-auth-FastAPI.git
 cd two-factor-auth-FastAPI
@@ -11,6 +12,11 @@ virtualenv venv
 source env/bin/activate 
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
+
+### Container with docker
+```
+docker-compose up
 ```
 
 ## Steps for setting up Two Factor Authentication
